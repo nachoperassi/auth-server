@@ -1,0 +1,17 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "no-multi-spaces": "warn",
+    "no-trailing-spaces": "warn",
+    "key-spacing": "warn",
+    "keyword-spacing": "warn"
+  }
+}
